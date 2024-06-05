@@ -1,0 +1,8 @@
+package KieRule;
+import com.learning.model.drools.Order;
+rule "HDFC"
+when
+orderObj : Order(cardType=="HDFC" && price>10000);
+then
+orderObj.setDiscount(10);
+end;

@@ -1,0 +1,26 @@
+package KieRule;
+//generated from Decision Table
+import com.learning.model.drools.Order;
+// rule values at A10, header at A5
+rule "HDFC"
+	when
+		orderObj:Order(cardType=="HDFC", price>10000)
+	then
+		orderObj.setDiscount(10);
+end
+
+// rule values at A11, header at A5
+rule "ICICI"
+	when
+		orderObj:Order(cardType=="ICICI", price>15000)
+	then
+		orderObj.setDiscount(8);
+end
+
+// rule values at A12, header at A5
+rule "DBS"
+	when
+		orderObj:Order(cardType=="DBS", price>15000)
+	then
+		orderObj.setDiscount(15);
+end

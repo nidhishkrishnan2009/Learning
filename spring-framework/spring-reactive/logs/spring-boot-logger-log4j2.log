@@ -1,0 +1,5 @@
+2023-08-18 00:47:19,181 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.test.ProductIntegrationTest]: ProductIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-08-18 00:47:19,272 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.test.MyLearningApplication for test class com.test.ProductIntegrationTest
+2023-08-18 00:47:19,575 INFO o.s.b.StartupInfoLogger [main] Starting ProductIntegrationTest using Java 17.0.7 with PID 22672 (started by nidish in C:\Users\nidhi\OneDrive\Desktop\Learning\Java-WorkSpace\my-learning\spring-framework\spring-reactive)
+2023-08-18 00:47:19,580 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-18 00:47:21,335 INFO o.s.b.StartupInfoLogger [main] Started ProductIntegrationTest in 2.008 seconds (process running for 3.177)
